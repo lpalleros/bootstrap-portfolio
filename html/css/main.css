@@ -1,0 +1,70 @@
+/*  - Librerías
+	• Bootstrap
+	• Ionicons
+	• jQuery
+
+- Colores
+	• Azul - #2C3E50
+	• Verde - #18BC9C
+
+- Tipografías (Google Fonts)
+	• Montserrat - Títulos
+	• Lato - Párrafos y demás */
+
+  body{
+    _background: red;
+  }
+
+.container-fluid {
+  height: 40px;
+}
+
+.nav {
+  background: #2C3E50;
+}
+.nav h1 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-top:20px;
+}
+
+.colorDeFondo{
+
+  height: 100px;
+  color: #fff;
+  font-weight: bolder;
+  padding: 0;
+}
+.colorDeFondo li{
+  color:white;
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: center;
+  list-style: none;
+  margin-left: 25px;
+  padding: 0;
+}
+
+
+.navegation {
+  >background: blue;
+  padding: 0;
+}
+header{
+  background-color: #66c0b7;
+  padding: 70px;
+  color: white;
+}
+header img {
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+}
+header h1 {
+text-align: center;
+font-size: 80px;
+}
+header p {
+  text-align: center;
+  font-size: 30px;
+}
